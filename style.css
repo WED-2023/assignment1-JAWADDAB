@@ -81,7 +81,8 @@ nav {
   }
   
   section h1:hover::after {
-    transform: translate(-80%, -50%);
+    
+    transform: translate(-80%, -80%);
   }
   
   section p {
@@ -97,7 +98,6 @@ nav {
     font-size: 20px;
   }
   
-  /* Removed li { font-size: inherit; } */
   
   form {
     display: inline-block;
@@ -150,4 +150,12 @@ nav {
   
   input[type="submit"]:hover {
     background-color: #044e83;
+  }
+  section h1 {
+    position: relative;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 10px;
+    margin: 50px 0 30px;
+    color: #351bff;
   }
